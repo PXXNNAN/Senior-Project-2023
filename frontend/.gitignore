@@ -1,25 +1,32 @@
-# Nuxt dev/build outputs
-.output
-.data
-.nuxt
-.nitro
-.cache
-dist
+# Node modules
+/node_modules/
 
-# Node dependencies
-node_modules
+# Nuxt.js build directory
+/.nuxt/
 
-# Logs
-logs
+# Log files
 *.log
-pnpm-lock.yaml
 
-# Misc
-.DS_Store
-.fleet
-.idea
+# Dependency directories
+/coverage/
 
-# Local env files
+# Environment variables
 .env
-.env.*
-!.env.example
+.env.*.local
+
+# npm packages lock file
+package-lock.json
+
+# IDE or editor settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional Nuxt cache
+/.nuxt_cache/
+
+*.jpg
+*.png

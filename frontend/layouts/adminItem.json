@@ -1,0 +1,32 @@
+[
+    {
+        "icon": "mdi-view-grid-outline",
+        "title": "รายการครุภัณฑ์ทั้งหมด",
+        "to": "/admin/"
+    },
+    {
+        "icon": "mdi-account-supervisor",
+        "title": "รายการสมาชิก",
+        "to": "/admin/Member"
+    },
+    {
+        "icon": "mdi-account-supervisor-circle",
+        "title": "ผู้รับผิดชอบห้อง",
+        "to": "/admin/editroom"
+    },
+    {
+        "icon": "mdi-account-supervisor-circle",
+        "title": "ผู้รับผิดชอบการให้ของ",
+        "to": "/admin/assetroom"
+    },
+    {
+        "icon": "mdi-book-open",
+        "title": "ประวัติการยืม-คืนทั้งหมด",
+        "to": "/admin/History"
+    },
+    {
+        "icon": "mdi-equalizer-outline",
+        "title": "Dashboard",
+        "to": "/admin/Dashboard"
+    }
+]

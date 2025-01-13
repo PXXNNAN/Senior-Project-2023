@@ -1,0 +1,23 @@
+[
+    {
+        "icon": "mdi-view-grid-outline",
+        "title": "รายการครุภัณฑ์ที่ดูแล",
+        "to": "/lecturer/"
+    },
+    {
+        "icon": "mdi-message-text",
+        "title": "คำขอยืมครุภัณฑ์",
+        "to": "/lecturer/borrow"
+    },
+    {
+        "icon": "mdi-file-star-outline",
+        "title": "รายการครุภัณฑ์ทั้งหมด",
+        "id": "all asset",
+        "to": "/lecturer/Allasset"
+    },
+    {
+        "icon": "mdi-email",
+        "title": "ประวัติการอนุมัติ",
+        "to": "/lecturer/history"
+    }
+]

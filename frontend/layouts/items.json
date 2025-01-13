@@ -1,0 +1,28 @@
+[
+    {
+        "icon": "mdi-apps",
+        "title": "Home",
+        "to": "/"
+    },
+    {
+        "icon": "mdi-apps",
+        "title": "รายการครุภัณฑ์ทั้งหมด",
+        "to": "/home"
+    },
+    {
+        "icon": "mdi-view-grid-outline",
+        "title": "รายการครุภัณฑ์ที่ขอยืม",
+        "to": "/datatable",
+        "basket": true
+    },
+    {
+        "icon": "mdi-domain",
+        "title": "ตรวจสอบสถานะ",
+        "to": "/status"
+    },
+    {
+        "icon": "mdi-domain",
+        "title": "รายการครุภัณฑ์ที่ค้างส่ง",
+        "to": "/borrowing"
+    }
+]

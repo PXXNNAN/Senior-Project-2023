@@ -1,0 +1,24 @@
+<template>
+  <v-card>
+    <v-div>
+      <h2>รายการครุภัณฑ์ที่ดูแล</h2> 
+    </v-div>
+    <v-card-title>
+      Select
+      <v-spacer></v-spacer>
+      <v-text-field
+        v-model="search"
+        append-icon="mdi-magnify"
+        label="Search" 
+        single-line
+        hide-details
+      ></v-text-field>
+    </v-card-title>
+    <v-data-table
+      :headers="headers"
+      :items="mydata"
+      :search="search"
+      v-if="mydata"
+    ></v-data-table>
+  </v-card>
+</template>

@@ -1,0 +1,33 @@
+[
+    {
+        "icon": "mdi-apps",
+        "title": "รายการครุภัณฑ์ที่ดูแล",
+        "to": "/myweb/"
+    },
+    {
+        "icon": "mdi-message-text",
+        "title": "คำขอยืมครุภัณฑ์",
+        "to": "/myweb/borrow"
+    },
+    {
+        "icon": "mdi-account-heart",
+        "title": "คืนครุภัณฑ์",
+        "to": "/myweb/Return"
+    },
+   
+    {
+        "icon": "mdi-email",
+        "title": "ให้ยืมอยู่",
+        "to": "/myweb/borrowing"
+    },
+    {
+        "icon": "mdi-email",
+        "title": "ประวัติการอนุมัติ",
+        "to": "/myweb/history"
+    },
+    {
+        "icon": "mdi-equalizer-outline",
+        "title": "Dashboard",
+        "to": "/myweb/Dashboard"
+    }
+]

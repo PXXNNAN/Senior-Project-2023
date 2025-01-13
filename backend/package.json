@@ -1,19 +1,25 @@
 {
-  "name": "backend",
+  "name": "myserver",
   "version": "1.0.0",
-  "description": "Senior Project 2023",
-  "main": "index.js",
+  "private": true,
+  "description": "MFU Borrow",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "cors": "^2.8.5",
-    "express": "^4.21.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "fast-csv": "^4.3.6",
+    "memorystore": "^1.6.7",
+    "multer": "^1.4.4",
     "mysql": "^2.18.1",
-    "nodemon": "^3.1.9"
+    "nodemon": "^2.0.15"
   }
 }
